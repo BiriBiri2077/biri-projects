@@ -1,5 +1,5 @@
 
-
+//creating an object
 let Biri = {
     nome : "Josué",
     idade : 17,
@@ -21,6 +21,8 @@ let Trasheyy = {
 }
 console.log(Trasheyy);
 
+
+// let examples
 let nome = Trasheyy;
 let idade = 17;
 let altura = 1.75;
@@ -29,6 +31,7 @@ if (altura <= 17) {
 console.log('bom dia');
 }
 
+// functions if...
 function resetaCor(){
     corSite = " Braço ";
 }
