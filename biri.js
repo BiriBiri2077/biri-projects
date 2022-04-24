@@ -81,10 +81,9 @@ function fizzBuzz(entrada){
     return entrada;
 }
 
-// Velocidade maxima de 70
-// a cada 5km 1 ponto na carteira
-//math.floor
-// caso pontos maior 12 carteira suspensa
+// Max Speed 70
+// 1 pontos each 5km >70
+// if pontos 12 = carteira suspensa
 verificarVelocidade(77);
 
 function verificarVelocidade(velocidade) {
