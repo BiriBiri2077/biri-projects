@@ -65,5 +65,19 @@ function max(numero1,numero2) {
      return numero1>numero2 ? numero1: numero2 ;
 }
 
+//FizzBuzz
+const resultado = fizzBuzz(4);
+console.log(resultado);
 
+function fizzBuzz(entrada){
+    if (typeof entrada !== 'number')
+        return 'nao é um número';
+    if (entrada % 2 === 0 && entrada % 4 === 0)
+        return 'FizzBuzz';
+    if (entrada % 2 === 0)
+        return 'Fizz';
+    if (entrada % 4 === 0)
+        return 'Buzz';
+    return entrada;
+}
 
