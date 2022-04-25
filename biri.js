@@ -5,21 +5,21 @@ let Biri = {
     idade : 17,
     altura : 1.75, 
 }
-console.log(Biri);
+    console.log(Biri);
 
 let Seven = {
     nome: "Guilherme",
     idade: 13,
     altura: 1.65,
 }
-console.log(Seven);
+    console.log(Seven);
 
 let Trasheyy = {
     nome: "Cauã",
     idade: 16,
     altura: 1.82,
 }
-console.log(Trasheyy);
+    console.log(Trasheyy);
 
 
 // let examples
@@ -28,7 +28,7 @@ let idade = 17;
 let altura = 1.75;
 
 if (altura <= 17) {
-console.log('bom dia');
+    console.log('bom dia');
 }
 
 // functions if...
@@ -38,19 +38,19 @@ function resetaCor(){
 resetaCor();
 
 if (nome = 'BiriBiri');
-console.log(corSite);
+    console.log(corSite);
 
 if(idade = 17);
-console.log('osu');
+    console.log('osu');
 
 if(nome = 'Trasheyy');
-console.log('sos');
+    console.log('sos');
 
 
 //function that shows the biggest between both
 
 let valorMaior = max(16,17,21);
-console.log(valorMaior);
+    console.log(valorMaior);
 
 function max(numero1,numero2) {
     if(numero1 > numero2)
@@ -59,7 +59,7 @@ function max(numero1,numero2) {
 }
 //or
 let valorMaior = max(22,17);
-console.log(valorMaior);
+    console.log(valorMaior);
 
 function max(numero1,numero2) {
      return numero1>numero2 ? numero1: numero2 ;
@@ -67,7 +67,7 @@ function max(numero1,numero2) {
 
 //FizzBuzz
 const resultado = fizzBuzz(4);
-console.log(resultado);
+    console.log(resultado);
 
 function fizzBuzz(entrada){
     if (typeof entrada !== 'number')
