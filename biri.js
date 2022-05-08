@@ -113,3 +113,21 @@ function exibirTipo(limite) {
             console.log(i,'IMPAR');
     }
 }
+
+
+
+//shows properties of an object
+const filme = {
+    titulo: 'Up',
+    ano: 2012,
+    diretor: 'Will Smith',
+    personagem: 'Robin'
+}
+
+exibirPropriedades(filme);
+function exibirPropriedades(obj) {
+    for (prop in obj)
+        if(typeof prop === 'string')
+        console.log(prop,obj[prop])
+
+}
